@@ -1,0 +1,129 @@
+*
+{
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+:root
+{
+    --clr1: rgb(#FFFFFF);
+    --clr2: rgb(#686868);
+    --clr3: rgb(#000000);
+    --clr4: rgb(#D22F26);
+}
+#logo-netnet
+{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 55px;
+    height: 24px;
+    margin-left: 30px;
+    font-family: impact;
+    font-style: normal;
+    font-size: 19px;
+    font-weight: 900;
+    line-height: 24px;
+    background: linear-gradient(101.56deg, #FF0021 0%, #AA011A 128.14%);
+}
+body
+{
+    background: #a88d8d;
+}
+
+.bottom-navigation
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 360px;
+    height: 64px;
+}
+.home
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 360px;
+    height: 64px;
+    left: 0px;
+    bottom: 0px;
+}
+.home icon
+{
+    position: absolute;
+    left: 8.33px;
+    right: 0%;
+    top: 12.5%;
+    bottom: 0%;
+}
+#bg
+{
+    position: absolute;
+    width: 90px;
+    height: 64px;
+    left: 270px;
+    top: 0px;
+    background: #000000;
+}
+#navbar series
+{
+    position: static;
+    width: 39px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Gill Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 48px;
+}
+#navbar peliculas
+{
+    position: static;
+    width: 55px;
+    height: 24px;
+    left: 87px;
+    top: 0px;
+    font-family: 'Gill Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 48px;
+}
+#navbar milista
+{
+    position: static;
+    width: 45px;
+    height: 24px;
+    left: 190px;
+    top: 0px;
+    font-family: 'Gill Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 48px;
+}
